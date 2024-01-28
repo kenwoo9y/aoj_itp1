@@ -3,7 +3,7 @@ n = int(input())
 taro_point = 0
 hanako_point = 0
 
-for i in range(n):
+for _ in range(n):
     taro_card, hanako_card = input().split()
     
     if taro_card > hanako_card:
